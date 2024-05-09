@@ -12,7 +12,7 @@ const collectEmployees = function() {
   while (newEntry) {
     const firstName = window.prompt("Please Enter First Name");
     const lastName = window.prompt("Please Enter Last Name");
-    const salary = window.prompt("Please Enter Salary");
+    const salary = parseFloat(window.prompt("Please Enter Salary"));
 
 
     const employee = {
